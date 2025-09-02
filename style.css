@@ -115,3 +115,40 @@
 #check:checked ~ .sidebar_menu .btn_two i {
   opacity: 1;
 }
+@media (max-width: 500px) {
+  .main_box {
+    background-position: center;
+    background-size: cover;
+  }
+  .sidebar_menu {
+    width: 220px;
+    left: -250px;
+  }
+
+  .sidebar_menu .logo a {
+    font-size: 20px;
+    left: 40px;
+  }
+
+  .sidebar_menu .menu a {
+    font-size: 16px;
+  }
+
+  .sidebar_menu .menu i {
+    font-size: 16px;
+  }
+
+  .btn_one {
+    font-size: 24px;
+    left: 10px;
+  }
+
+  .sidebar_menu .btn_two i {
+    left: 200px;
+    font-size: 20px;
+  }
+
+  .social_media {
+    left: 20%;
+  }
+}
